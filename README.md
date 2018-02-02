@@ -1,9 +1,3 @@
-# Dependencies
-
-- sqlite3
-- node
-- npm
-
 # Getting Started
 
 ###### Install npm dependencies
