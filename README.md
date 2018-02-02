@@ -1,7 +1,7 @@
 ## Required Technologies
- - [AngularJS](https://angularjs.org/)
- - [Bootstrap/Material]
- - [Gulp/Grunt/Webpack]
+ - AngularJS
+ - Bootstrap/Material
+ - Gulp/Grunt/Webpack
 
 ## Getting Started
 
@@ -51,6 +51,14 @@
 ```
 GET|POST          /api/customers
 GET|PUT|DELETE    /api/customers/{id}
+```
+```json
+{
+  'id': integer
+  'name': string
+  'address': string
+  'phone': string
+}
 ```
 
 #### Products
