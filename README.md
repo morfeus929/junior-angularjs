@@ -1,4 +1,9 @@
-# Getting Started
+## Required Technologies
+ - [AngularJS](https://angularjs.org/)
+ - [Bootstrap/Material]
+ - [Gulp/Grunt/Webpack]
+
+## Getting Started
 
 ###### Install npm dependencies
 `npm install`
@@ -9,9 +14,9 @@
 ###### Viewing the application in your browser
 `http://localhost:8000`
 
-# Schema
+## Schema
 
-## Customers
+#### Customers
 
 - id (integer)
 - name (string)
@@ -19,20 +24,20 @@
 - phone (string)
 
 
-## Products
+#### Products
 
 - id (integer)
 - name (string)
 - price (decimal)
 
-## Invoices
+#### Invoices
 
 - id (integer)
 - customer_id (integer)
 - discount (decimal)
 - total (decimal)
 
-## InvoiceItems
+#### InvoiceItems
 
 - id (integer)
 - invoice_id (integer)
@@ -40,26 +45,26 @@
 - quantity (decimal)
 
 
-# Resources
+## Resources
 
-## Customers
+#### Customers
 ```
 GET|POST          /api/customers
 GET|PUT|DELETE    /api/customers/{id}
 ```
 
-## Products
+#### Products
 ```
 GET|POST          /api/products
 GET|PUT|DELETE    /api/products/{id}
 ```
-## Invoices
+#### Invoices
 ```
 GET|POST          /api/invoices
 GET|PUT|DELETE    /api/invoices/{id}
 ```
 
-## InvoiceItems
+#### InvoiceItems
 ```
 GET|POST          /api/invoices/{id}/items
 GET|PUT|DELETE    /api/invoices/{invoice_id}/items/{id}
