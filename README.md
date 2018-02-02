@@ -51,8 +51,8 @@
 ```
 GET|POST          /api/customers
 GET|PUT|DELETE    /api/customers/{id}
-```
-```json
+
+json
 {
   'id': integer
   'name': string
